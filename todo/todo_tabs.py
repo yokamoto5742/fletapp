@@ -94,7 +94,7 @@ class TodoApp(UserControl):
         self.tasks = Column()
 
         self.filter = Tabs(
-            selected_index=0,
+            selected_index=1,
             on_change=self.tabs_changed,
             tabs=[Tab(text="all"), Tab(text="active"), Tab(text="completed")],
         )
